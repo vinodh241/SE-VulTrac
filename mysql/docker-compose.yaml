@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  mysql:
+    image: mysql:v1   # your custom image with db scripts
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: VulT@123
+      MYSQL_DATABASE: vultrac
+      MYSQL_USER: testuser
+      MYSQL_PASSWORD: Test@123
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
