@@ -1,5 +1,6 @@
 CREATE USER IF NOT EXISTS 'test'@'%' IDENTIFIED BY 'Test@123';
 GRANT ALL PRIVILEGES ON vultrac.* TO 'test'@'%';
-FLUSH PRIVILEGES;
+
+
 
 
