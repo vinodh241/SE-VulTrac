@@ -1,2 +1,0 @@
-ALTER TABLE vultrac_upload_batch
-ADD COLUMN EMAIL_SENT INT DEFAULT 0;

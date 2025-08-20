@@ -1,2 +1,0 @@
-ALTER TABLE vultrac_sla_escalation_config
-ADD source_id INT;
