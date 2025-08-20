@@ -1,6 +1,10 @@
-CREATE USER 'test'@'%' IDENTIFIED BY 'Test@123';
+DROP USER IF EXISTS 'test'@'localhost';
+DROP USER IF EXISTS 'test'@'%';
+
+CREATE USER 'test'@'%' IDENTIFIED BY 'test123';
 GRANT ALL PRIVILEGES ON *.* TO 'test'@'%' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
+
 
 
 
