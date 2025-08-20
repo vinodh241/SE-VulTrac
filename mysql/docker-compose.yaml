@@ -6,7 +6,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: VulT@123
       MYSQL_DATABASE: vultrac
-      MYSQL_USER: testuser
+      MYSQL_USER: test
       MYSQL_PASSWORD: Test@123
     ports:
       - "3306:3306"
