@@ -13,7 +13,7 @@ RUN apt-get update && \
     rm apache-tomcat-${TOMCAT_VERSION}.tar.gz
 
 # Copy your WAR file
-COPY /home/devops/VulTrac.war /opt/tomcat/webapps/
+#
 
 # Expose Tomcat port
 EXPOSE 8080
